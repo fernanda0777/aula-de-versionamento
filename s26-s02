@@ -1,0 +1,20 @@
+RabbitMQ
+RabbitMQ é um broker de mensagens de código aberto que facilita a comunicação entre aplicações ou serviços por meio de um sistema de mensageria. Ele implementa o Protocolo Avançado de Fila de Mensagens (AMQP) e suporta diversos padrões de mensageria, como public/subscribe, request/reply e point-to-point.
+
+Principais Recursos:
+Mensagens Confiáveis: Garante que as mensagens sejam entregues de forma confiável, com opções de reconhecimento e durabilidade.
+
+Roteamento Flexível: Suporta roteamento complexo com exchanges (direct, topic, fanout, etc.) que determinam como as mensagens são distribuídas para as filas.
+
+Clusterização: Permite que vários servidores RabbitMQ trabalhem juntos, oferecendo alta disponibilidade e escalabilidade.
+
+Interface de Gerenciamento: Oferece uma interface web para monitorar e gerenciar clusters RabbitMQ.
+
+Plugins: Extensível por meio de vários plugins que podem adicionar funcionalidades como monitoramento, integração com outros sistemas e protocolos adicionais.
+
+Bibliotecas de Cliente: Suporta várias linguagens de programação, facilitando a integração com diferentes aplicações.
+
+Casos de Uso Comuns:
+Desacoplamento de Microserviços: Ajuda a desacoplar microserviços, permitindo que se comuniquem de forma assíncrona.
+Balanceamento de Carga: Distribui cargas de trabalho entre vários consumidores para equilibrar o processamento.
+Pipelines de Processamento de Dados: Útil para construir pipelines de processamento de dados onde tarefas podem ser enfileiradas e processadas em paralelo.
